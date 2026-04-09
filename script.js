@@ -6,7 +6,7 @@ console.log(btnPrev);
 console.log(list);
 
 
-
+//logica usando forEach
 function voltar() {
     console.log("voltar");
     let activeOld = document.querySelector('.item.active');
@@ -24,7 +24,7 @@ function voltar() {
     });   
 }
 
-
+//logica simples usando index
 let count = list.length;
 let index = 0;
 
